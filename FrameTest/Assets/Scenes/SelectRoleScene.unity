@@ -217,6 +217,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &384995217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6752295373759248597, guid: 336bf42651a1182488d8639dc0325678, type: 3}
+  m_PrefabInstance: {fileID: 916193999515066079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &384995220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384995217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 480, y: 80}
+  m_Spacing: {x: 0, y: 15}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1001 &484800043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,10 +431,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4583579905690391479, guid: 336bf42651a1182488d8639dc0325678, type: 3}
-      propertyPath: m_HorizontalScrollbar
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5030708896349307669, guid: 336bf42651a1182488d8639dc0325678, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -493,7 +518,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6752295373759248597, guid: 336bf42651a1182488d8639dc0325678, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 384995220}
   m_SourcePrefab: {fileID: 100100000, guid: 336bf42651a1182488d8639dc0325678, type: 3}
 --- !u!224 &916193999515066080 stripped
 RectTransform:
